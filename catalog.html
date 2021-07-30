@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <script src="https://kit.fontawesome.com/bbdae76a11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-menu">
+            <div class="container header-box">
+                <div class="header-l">
+                    <div class="header-l-flex">
+                        <a class="logo" href="#">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                        <div class="search">
+                            <form class="header-search" action="#">
+                                <img src="img/forma.svg" alt="search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-r">
+                    <nav class="header-r-flex">
+                        <ul class="header-big-link">
+                            <li class="button-menu-img1">
+                                <div class="dropdown last">
+                                    <button class="button-menu-click">
+                                        <img class="img-menu" src="img/menuu.png" alt="">
+                                    </button>
+                                    <ul class="burger-menu">
+
+                                        <button class="button-menu-click2">
+                                            <img src="img/clouse.png" alt="">
+                                        </button>
+                                        <h3 class="burger-menu-h3">MENU</h3>
+                                        <h3 class="burger-menu-h3-red">MAN</h3>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Accessories</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Bags</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Denim</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">T-Shirts</p>
+                                            </a></li>
+
+                                        <h3 class="burger-menu-h3-red">WOMAN</h3>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Accessories</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Jackets & Coats </p>
+                                            </a>
+                                        </li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Polos</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">T-Shirts</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Shirts</p>
+                                            </a></li>
+
+                                        <h3 class="burger-menu-h3-red">KIDS</h3>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Accessories</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Jackets & Coats</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Polos</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">T-Shirts</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Shirts</p>
+                                            </a></li>
+                                        <li><a class="burger-menu-link" href="#">
+                                                <p class="menu-p">Bags</p>
+                                            </a></li>
+
+
+
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li>
+                                <a class="header-contact" href="#"> <img src="img/cont.svg" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="header-basket" href="#"> <img src="img/basket.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="breadcrumb-big-box">
+            <div class="breadcrumb-box container">
+                <div class="breadcrumb-box-r">
+                    <p class="breadcrumb-box-r-info">NEW ARRIVALS</p>
+
+                </div>
+                <div class="breadcrumb-box-l">
+                    <ul class="breadcrumb">
+                        <li><a class="breadcrumd-a" href="#">HOME/</a></li>
+                        <li><a class="breadcrumd-a" href="#">MEN/</a></li>
+                        <li class="active">NEW ARRIVALS</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="content-box-top">
+        <nav class="content-box container">
+            <div class="content-box-top1">
+                <div class="filter-catalog-big-big-box">
+                    <details class="filter-catalog">
+                        <summary class="filter-catalog-summary">
+                            <div class="filter-box">
+                                <div class="filter-box-text1">FILTER</div>
+                                <div class="filter-img">
+
+                                </div>
+                            </div>
+
+                        </summary>
+
+                        <details>
+                            <summary class="filter-catalog-summary-info">CATEGORY
+                            </summary>
+                            <div class="catalo-filter">
+                                <ul class="filter-catalog-summary-info-ul">
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Accessories</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Bags</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Denim</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Hoodies & Sweatshirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Jackets & Coats</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Polos</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Shirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Shoes</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Sweaters & Knits</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">T-Shirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Tanks</a></li>
+
+                                </ul>
+                            </div>
+
+
+                        </details>
+                        <details>
+                            <summary class="filter-catalog-summary-info">
+                                BRAND
+                            </summary>
+                            <div class="catalo-filter">
+                                <ul class="filter-catalog-summary-info-ul">
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Accessories</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Bags</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Denim</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Hoodies & Sweatshirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Jackets & Coats</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Polos</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Shirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Shoes</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Sweaters & Knits</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">T-Shirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Tanks</a></li>
+
+                                </ul>
+                            </div>
+
+                        </details>
+                        <details>
+                            <summary class="filter-catalog-summary-info">
+                                DESIGNER
+                            </summary>
+                            <div class="catalo-filter">
+                                <ul class="filter-catalog-summary-info-ul">
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Accessories</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Bags</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Denim</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Hoodies & Sweatshirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Jackets & Coats</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Polos</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Shirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Shoes</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Sweaters & Knits</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">T-Shirts</a></li>
+                                    <li class="filter-catalog-summary-info-li"> <a href=""
+                                            class="filter-catalog-summary-info-a">Tanks</a></li>
+
+                                </ul>
+                            </div>
+
+                        </details>
+                    </details>
+                </div>
+            </div>
+            <div class="content-box-top2">
+                <div class="content-box-top2-info">
+                    <details class="content-box-top2-filter1">
+                        <summary class="content-box-top2-filter1">
+                            TRENDING NOW <i class="fas fa-angle-down"></i>
+                        </summary>
+                    </details>
+                    <details class="content-box-top2-filter1">
+                        <summary class="content-box-top2-filter1">
+                            SIZE <i class="fas fa-angle-down"></i>
+                        </summary>
+                        <div class="content-box-top2-filter-info">rgrgtrgrgrr
+
+                        </div>
+                    </details>
+                    <details class="content-box-top2-filter1">
+                        <summary class="content-box-top2-filter1">
+                            PRICE<i class="fas fa-angle-down"></i>
+                        </summary>
+                    </details>
+                </div>
+            </div>
+        </nav>
+        <div class="cards-catalog container">
+            <div class="big-cards-box">
+
+                <div class="cards-box">
+                    <div class="product-item">
+                        <img src="img/card1.png">
+                        <div class="product-buttons">
+                            <a href="" class="button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-title">
+                        <a class="product-title-a" href="">ELLERY X M'O CAPSULE</a>
+                        <p class="product-title-p">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of cool Kym Ellery
+                            teams up with Moda Operandi.</p>
+                        <span class="product-price">$52.00</span>
+                    </div>
+                </div>
+
+
+                <div class="cards-box">
+                    <div class="product-item">
+                        <img src="img/card2.png">
+                        <div class="product-buttons">
+                            <a href="" class="button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-title">
+                        <a class="product-title-a" href="">ELLERY X M'O CAPSULE</a>
+                        <p class="product-title-p">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of cool Kym Ellery
+                            teams up with Moda Operandi.</p>
+                        <span class="product-price">$52.00</span>
+                    </div>
+                </div>
+                <div class="cards-box">
+                    <div class="product-item">
+                        <img src="img/card3.png">
+                        <div class="product-buttons">
+                            <a href="" class="button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-title">
+                        <a class="product-title-a" href="">ELLERY X M'O CAPSULE</a>
+                        <p class="product-title-p">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of cool Kym Ellery
+                            teams up with Moda Operandi.</p>
+                        <span class="product-price">$52.00</span>
+                    </div>
+                </div>
+                <div class="cards-box">
+                    <div class="product-item">
+                        <img src="img/card4.png">
+                        <div class="product-buttons">
+                            <a href="" class="button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-title">
+                        <a class="product-title-a" href="">ELLERY X M'O CAPSULE</a>
+                        <p class="product-title-p">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of cool Kym Ellery
+                            teams up with Moda Operandi.</p>
+                        <span class="product-price">$52.00</span>
+                    </div>
+                </div>
+                <div class="cards-box">
+                    <div class="product-item">
+                        <img src="img/card5.png">
+                        <div class="product-buttons">
+                            <a href="" class="button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-title">
+                        <a class="product-title-a" href="">ELLERY X M'O CAPSULE</a>
+                        <p class="product-title-p">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of cool Kym Ellery
+                            teams up with Moda Operandi.</p>
+                        <span class="product-price">$52.00</span>
+                    </div>
+                </div>
+                <div class="cards-box">
+                    <div class="product-item">
+                        <img src="img/card6.png">
+                        <div class="product-buttons">
+                            <a href="" class="button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-title">
+                        <a class="product-title-a" href="">ELLERY X M'O CAPSULE</a>
+                        <p class="product-title-p">Known for her sculptural takes on traditional tailoring, Australian
+                            arbiter of cool Kym Ellery
+                            teams up with Moda Operandi.</p>
+                        <span class="product-price">$52.00</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+
+    </div>
+
+</body>
+
+</html>

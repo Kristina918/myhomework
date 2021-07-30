@@ -728,4 +728,238 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+.breadcrumb-big-box {
+  background-color: #F8F3F4;
+  height: 148px;
+  margin-bottom: 54px;
+}
+
+.breadcrumb-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.breadcrumb-box-r-info {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+
+.breadcrumb {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  list-style-type: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadcrumd-a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filter-catalog-summary {
+  list-style-type: none;
+  margin-top: 13px;
+  margin-left: 16px;
+}
+
+.filter-catalog-summary:hover {
+  color: #EF5B70;
+}
+
+.filter-catalog-summary-info {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #EBEBEB;
+  width: 327px;
+  height: 37px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  margin-left: 17px;
+}
+
+.filter-catalog-summary-info::before {
+  content: url(img/filtercatalg.svg);
+  margin-right: 11px;
+  height: 100%;
+}
+
+.filter-catalog-summary-info:hover {
+  color: #EF5B70;
+}
+
+.filter-img {
+  width: 20px;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(img/filter1.png);
+  background-repeat: no-repeat;
+}
+
+.filter-img[open] {
+  background-image: url(img/filter2.png);
+}
+
+.filter-catalog-summary[open] {
+  color: #EF5B70;
+}
+
+.filter-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75px;
+  height: 17px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter-catalog[open] {
+  background-color: white;
+  width: 360px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter-catalog {
+  position: absolute;
+  z-index: 1;
+}
+
+.filter-catalog:hover .filter-catalog-summary {
+  color: #EF5B70;
+}
+
+.filter-catalog:hover .filter-img {
+  background-image: url(img/filter2.png);
+}
+
+.filter-catalog {
+  height: auto;
+}
+
+.filter-catalog-big-big-box {
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 16px;
+}
+
+.catalo-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.filter-catalog-summary-info-a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  text-decoration: none;
+  margin-left: 34px;
+}
+
+.filter-catalog-summary-info-li:hover .filter-catalog-summary-info-a {
+  color: #EF5B70;
+}
+
+.filter-catalog-summary-info-ul {
+  list-style-type: none;
+  margin-bottom: 11px;
+}
+
+.cards-catalog {
+  margin-top: 82px;
+}
+
+.content-box-top2-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-box-top2-filter1 {
+  list-style-type: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-top: 17px;
+  padding-left: 11px;
+}
+
+.fa-angle-down {
+  margin-left: 10px;
+}
+
+.filter-box-text1 {
+  width: 100%;
+  margin-right: 11px;
+}
+
+.content-box-top2-filter-info {
+  position: absolute;
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */
