@@ -940,7 +940,7 @@ body {
   color: #6F6E6E;
 }
 
-.fa, .fas {
+.fa-angle-down {
   margin-left: 10px;
 }
 
@@ -980,5 +980,71 @@ body {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.pagination-catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 18px;
+}
+
+.pagination-ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-link {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #EBEBEB;
+}
+
+.page-item:hover a.page-link {
+  color: #EF5B70;
+}
+
+.page-item:hover .page-link span {
+  color: #EF5B70;
+}
+
+.pagination-style {
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.fa-angle-left {
+  margin-left: 16px;
+  margin-right: 0;
+}
+
+.fa-angle-right {
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+.page-link span {
+  color: #000000;
+  font-weight: bold;
+}
+
+.page-link-span {
+  width: 100%;
+}
+
+.page-item {
+  padding-left: 9px;
+  padding-right: 9px;
 }
 /*# sourceMappingURL=style.css.map */
