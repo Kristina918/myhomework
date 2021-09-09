@@ -136,7 +136,7 @@ body {
 }
 
 .burger-menu-h3-red {
-  font-family: Lato;
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -433,6 +433,15 @@ body {
   font-family: "Lato";
   font-size: 16px;
   line-height: 19px;
+  color: #F16D7F;
+}
+
+.product-price-cart {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
   color: #F16D7F;
 }
 
@@ -755,6 +764,7 @@ body {
   font-size: 24px;
   line-height: 29px;
   color: #F16D7F;
+  margin-bottom: 0;
 }
 
 .breadcrumb {
@@ -1252,5 +1262,92 @@ body {
 
 .margin-footer {
   margin-top: 98px;
+}
+
+.cart-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 10px 10px 11px 5px rgba(34, 60, 80, 0.2);
+          box-shadow: 10px 10px 11px 5px rgba(34, 60, 80, 0.2);
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input-quantity {
+  width: 43.19px;
+  height: 24.12px;
+  text-align: center;
+  border: 1px solid #EAEAEA;
+  margin-left: 24px;
+}
+
+.cart-img {
+  width: 652px;
+  height: 306px;
+  margin-bottom: 40px;
+}
+
+.button-click-cart {
+  display: block;
+  border: none;
+  background: transparent;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.h4-cart {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  margin-top: 22px;
+  margin-bottom: 34px;
+}
+
+.total-price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.cart-img-margin {
+  margin-right: 31px;
+}
+
+.cart-right {
+  width: 100%;
+}
+
+.cart-botton {
+  margin-right: 22px;
+  margin-top: 22px;
+}
+
+.description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+#marging-price {
+  margin-bottom: 6px;
 }
 /*# sourceMappingURL=style.css.map */
