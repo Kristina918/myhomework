@@ -1131,3 +1131,150 @@ color: #575757;
 #marging-price{
     margin-bottom: 6px;
 }
+.h4-form{
+ font-family: "Lato";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+color: #222222;
+margin-top: 17px;
+margin-bottom: 20.5px;
+
+}
+.big-cart{
+    display: flex;
+}
+.right-block-cart{
+    width: 360px;
+    margin-left: 128px;
+}
+.input-cart{
+    width: 359px;
+    height: 45px;
+    margin-bottom: 21px!important;
+    padding-left: 16.73px;
+    border: 1px solid #A4A4A4;
+    font-family: "Lato";
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+color: #222222;
+}
+.button-form-cart{
+    width: 101.41px;
+    height: 35px;
+    font-family: "Lato";
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #4A4A4A;
+background-color: white;
+border: 1px solid #A4A4A4;
+}
+.button-form-cart:hover {
+    background-color:#A4A4A4 ;
+    color: white;
+}
+.botton-check{
+    width: 360px;
+    height: 214px;
+    background-color: #F5F3F3;
+    margin-top: 57px;
+    text-align: center;
+    padding-top: 39px;
+
+}
+.total-p1{
+    font-family: "Lato";
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+color: #4A4A4A;
+text-align: right;
+margin-right: 34px;
+margin-bottom:12px;
+}
+.span-total-p1{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    text-align: right;
+    margin-left: 30px;
+}
+.total-p2{
+    font-family: "Lato";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+color: #222222;
+margin-right: 37px;
+}
+.span-total-p2{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin-left: 30px;
+   
+}
+.hr-botton-check{
+    border: 1px solid #E2E2E2;
+    width: 275px;
+    margin: 0 auto;
+    display: inline-block;
+ 
+}
+.button-form-cart-check{
+    width: 273px;
+    height: 50px;
+    background-color: #F16D7F;
+    font-family: "Lato";
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+border: 1px solid #F16D7F ;
+color: #FFFFFF;
+margin-top: 17px;
+}
+.button-form-cart-check:hover{
+    background-color: white;
+    color:#F16D7F;
+}
+p {
+    margin: 0 ;
+}
+.cart-botton-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.button-form-cart-footer{
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    font-family: "Lato";
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+border: 1px solid #A4A4A4;
+margin-top: 32px;
+}
+.button-form-cart-footer:hover{
+    background-color: gray;
+    color: white;
+
+}
