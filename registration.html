@@ -136,15 +136,54 @@
     <section>
         <div class="regisrt-big-box container">
             <div class="registr-l-box">
-                <form action="#">
+                <form class="form-registration" action="#">
                     <h3 class="registr-h3">
                         Your Name
                     </h3>
-                    <input id="name" placeholder="Иванов" autofocus="" required="" pattern="\S+[А-яа-я]">
+                    <label for="name"><input class="input-name" id="name" placeholder="First Name" autofocus=""
+                            required="" pattern="\S+[А-яа-я],[A-Zz-a]"> </label>
 
+                    <br>
+                    <label for="name"><input class="input-name" id="name" placeholder="Last Name" required=""
+                            pattern="\S+[А-яа-я],[A-Zz-a]"> </label>
+                    <br>
+                    <label class="gender-radio-box"><input class="input-gender1" type="radio" name="sex" value="1"
+                            style="vertical-align:middle;" />Male</label>
+                    <label class="gender-radio-box"><input class="input-gender2" type="radio" name="sex" value="1"
+                            style="vertical-align:middle;" />Female</label>
+                    <h3 class="registr-h3">
+                        Login details</h3>
+                    <label for="email"><input class="input-name" id="email" placeholder="Email" required=""
+                            pattern="\S+@[a-z]+.[a-z]+"></label><br>
+                    <label for="password">
+                        <input class="input-name" id="userPassword" type="password" placeholder="Password"
+                            minlength="8">
+                    </label>
+                    <p class="registr-p">Please use 8 or more characters, with at least 1 number and a mixture of
+                        uppercase and lowercase letters</p>
+                    <button class="button-form-cart-check  registration-button"> JOIN NOW <i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                 </form>
             </div>
-            <div class="registr-r-box"></div>
+            <div class="registr-r-box">
+                <h3 class="registr-h3 r-box">LOYALTY HAS ITS PERKS</h3>
+                <p class="registr-p p-r-box">Get in on the loyalty program where you can earn points and unlock serious
+                    perks. Starting with these as soon as you join:</p>
+
+                <ul class="registr-ul">
+                    <li class="registr-li">15% off welcome offer
+                    </li>
+                    <li class="registr-li">Free shipping, returns and exchanges on all orders
+
+                    </li>
+                    <li class="registr-li">$10 off a purchase on your birthday
+
+                    </li>
+                    <li class="registr-li">Early access to products</li>
+                    <li class="registr-li">Exclusive offers & rewards</li>
+                </ul>
+
+            </div>
         </div>
     </section>
 
